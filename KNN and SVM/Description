@@ -1,0 +1,1 @@
+The png files denotes the mispredictions performed by machine learning samples. The x axis has the ids for the test data which was used for predicitons and the value corresponding to each point is either 0 or 2. 0 means it was correctly classified and 2 means it was misclassified by the model.
