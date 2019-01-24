@@ -10,7 +10,7 @@ import pickle
 style.use('ggplot')
 
 
-quandl.ApiConfig.api_key = 'M89Wpy17p8_wScxjbdb_'
+quandl.ApiConfig.api_key = 'M8tgh7p8_wScxjbdb_'
 df = quandl.get('WIKI/GOOGL')
 df = df[['Adj. Open','Adj. High','Adj. Low','Adj. Close','Adj. Volume']]
 df['HL_PCT'] = (df['Adj. High'] - df['Adj. Close'])/df['Adj. Close']*100.0
